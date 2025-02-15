@@ -6,7 +6,7 @@ PUT, GET, POST işlemleri yapar JWT ile çalışır, öncelikle /login sayfasın
   "Password": "password"
 }
 
-Veri ekleme formatı
+Veri ekleme formatı, ek olarak post put işlemi yaparken Head kısmını Bearer Token olarak JWT'den gelen kodu giriniz.
 
 {
   
