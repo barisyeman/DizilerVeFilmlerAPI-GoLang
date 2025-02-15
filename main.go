@@ -43,7 +43,7 @@ var jwtKey = []byte("my_secret_key")
 
 func main() {
 	var err error
-	db, err = sql.Open("mysql", "root:Asdasd123123.@tcp(localhost:3306)/test")
+	db, err = sql.Open("mysql", "root:password@tcp(localhost:3306)/test")
 	if err != nil {
 		log.Fatal(err)
 	}
